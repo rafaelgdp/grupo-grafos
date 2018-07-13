@@ -1,0 +1,2 @@
+O grafo 1 é bipartido? true
+O grafo 2 é bipartido? false

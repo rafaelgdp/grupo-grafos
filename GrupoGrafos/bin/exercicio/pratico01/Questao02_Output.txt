@@ -1,0 +1,89 @@
+Todos os melhores caminhos partindo de A
+De A a B: [(A : B)] com peso 2.0
+De A a C: [(A : B), (B : C)] com peso 6.0
+De A a D: [(A : G), (I : G), (E : I), (D : E)] com peso 7.0
+De A a E: [(A : G), (I : G), (E : I)] com peso 6.0
+De A a F: [(A : F)] com peso 7.0
+De A a G: [(A : G)] com peso 3.0
+De A a H: [(A : G), (G : H)] com peso 6.0
+De A a I: [(A : G), (I : G)] com peso 4.0
+
+Todos os melhores caminhos partindo de B
+De B a A: [(A : B)] com peso 2.0
+De B a C: [(B : C)] com peso 4.0
+De B a D: [(B : C), (C : D)] com peso 6.0
+De B a E: [(B : C), (C : D), (D : E)] com peso 7.0
+De B a F: [(A : B), (A : F)] com peso 9.0
+De B a G: [(A : B), (A : G)] com peso 5.0
+De B a H: [(B : C), (C : H)] com peso 6.0
+De B a I: [(A : B), (A : G), (I : G)] com peso 6.0
+
+Todos os melhores caminhos partindo de C
+De C a A: [(B : C), (A : B)] com peso 6.0
+De C a B: [(B : C)] com peso 4.0
+De C a D: [(C : D)] com peso 2.0
+De C a E: [(C : D), (D : E)] com peso 3.0
+De C a F: [(C : D), (D : E), (E : F)] com peso 9.0
+De C a G: [(C : H), (G : H)] com peso 5.0
+De C a H: [(C : H)] com peso 2.0
+De C a I: [(C : D), (D : E), (E : I)] com peso 5.0
+
+Todos os melhores caminhos partindo de D
+De D a A: [(D : E), (E : I), (I : G), (A : G)] com peso 7.0
+De D a B: [(C : D), (B : C)] com peso 6.0
+De D a C: [(C : D)] com peso 2.0
+De D a E: [(D : E)] com peso 1.0
+De D a F: [(D : E), (E : F)] com peso 7.0
+De D a G: [(D : E), (E : I), (I : G)] com peso 4.0
+De D a H: [(C : D), (C : H)] com peso 4.0
+De D a I: [(D : E), (E : I)] com peso 3.0
+
+Todos os melhores caminhos partindo de E
+De E a A: [(E : I), (I : G), (A : G)] com peso 6.0
+De E a B: [(D : E), (C : D), (B : C)] com peso 7.0
+De E a C: [(D : E), (C : D)] com peso 3.0
+De E a D: [(D : E)] com peso 1.0
+De E a F: [(E : F)] com peso 6.0
+De E a G: [(E : I), (I : G)] com peso 3.0
+De E a H: [(D : E), (C : D), (C : H)] com peso 5.0
+De E a I: [(E : I)] com peso 2.0
+
+Todos os melhores caminhos partindo de F
+De F a A: [(A : F)] com peso 7.0
+De F a B: [(A : F), (A : B)] com peso 9.0
+De F a C: [(E : F), (D : E), (C : D)] com peso 9.0
+De F a D: [(E : F), (D : E)] com peso 7.0
+De F a E: [(E : F)] com peso 6.0
+De F a G: [(F : I), (I : G)] com peso 6.0
+De F a H: [(F : I), (I : H)] com peso 9.0
+De F a I: [(F : I)] com peso 5.0
+
+Todos os melhores caminhos partindo de G
+De G a A: [(A : G)] com peso 3.0
+De G a B: [(A : G), (A : B)] com peso 5.0
+De G a C: [(G : H), (C : H)] com peso 5.0
+De G a D: [(I : G), (E : I), (D : E)] com peso 4.0
+De G a E: [(I : G), (E : I)] com peso 3.0
+De G a F: [(I : G), (F : I)] com peso 6.0
+De G a H: [(G : H)] com peso 3.0
+De G a I: [(I : G)] com peso 1.0
+
+Todos os melhores caminhos partindo de H
+De H a A: [(G : H), (A : G)] com peso 6.0
+De H a B: [(C : H), (B : C)] com peso 6.0
+De H a C: [(C : H)] com peso 2.0
+De H a D: [(C : H), (C : D)] com peso 4.0
+De H a E: [(C : H), (C : D), (D : E)] com peso 5.0
+De H a F: [(I : H), (F : I)] com peso 9.0
+De H a G: [(G : H)] com peso 3.0
+De H a I: [(I : H)] com peso 4.0
+
+Todos os melhores caminhos partindo de I
+De I a A: [(I : G), (A : G)] com peso 4.0
+De I a B: [(I : G), (A : G), (A : B)] com peso 6.0
+De I a C: [(E : I), (D : E), (C : D)] com peso 5.0
+De I a D: [(E : I), (D : E)] com peso 3.0
+De I a E: [(E : I)] com peso 2.0
+De I a F: [(F : I)] com peso 5.0
+De I a G: [(I : G)] com peso 1.0
+De I a H: [(I : H)] com peso 4.0
